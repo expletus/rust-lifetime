@@ -17,6 +17,7 @@ impl<'a> StrSplit<'a> {
 }
 
 // Iterator for StrSplit
+// Watch for revision https://youtu.be/rAl-9HwD858?t=1619
 impl<'a> Iterator for StrSplit<'a> {
     type Item = &'a str;
     fn next(&mut self) -> Option<Self::Item> {

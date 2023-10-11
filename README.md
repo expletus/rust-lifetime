@@ -1,6 +1,8 @@
 # Overview 
 
-Library Crate created to learn **[Crust of Rust: Lifetime Annotation](https://www.youtube.com/watch?v=rAl-9HwD858)**
+Library Crate created to learn **[Crust of Rust: Lifetime Annotation](https://www.youtube.com/watch?v=rAl-9HwD858)** And **[Rust Lifetimes](https://www.youtube.com/watch?v=1QoT9fmPYr8)**
+
+[Crisp read](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/lifetimes.html) to learn all about lifetimes!
 
 - Why lifetime? - to avoid  dangling reference, Rust needs to know how long is the reference valid (underlying memory has not been free'd)
 - Rust allows only one owner for a value but multiple borrowers (immutable references).
